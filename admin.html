@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+						initial-scale=1.0">
+	<title>Book N Dine</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+	<header>
+		<a href="./index.html"><h1 class="heading">Book N Dine</h1></a>
+		<h3 class="title">Admin Registration</h3>
+	</header>
+
+	<!-- container div -->
+	<div class="container">
+
+		<!-- upper button section to select
+			the login or signup form -->
+		<div class="slider"></div>
+		<div class="btn">
+			<button class="signup">Admin Signup</button>
+		</div>
+	<!-- signup form -->
+	<form action="adminsign.php" method="post">
+    <div class="signup-box">
+        <input type="text"
+            class="name ele" id="name" name="name"
+            placeholder="Enter your name">
+        <input type="email"
+            class="email ele" id="email" name="email"
+            placeholder="youremail@email.com">
+        <input type="password"
+            class="password ele" id="password" name="password"
+            placeholder="password">
+        <input type="password"
+            class="password ele" id="confirmpassword" name="confirmpassword"
+            placeholder="Confirm password">
+        <button class="clkbtn">Signup</button>
+	</form>
+    </div>
+
+</div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>

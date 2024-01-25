@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+						initial-scale=1.0">
+	<title>Book N Dine</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+	
+	<header>
+		<a href="./index.php"><h1 class="heading">Book N Dine</h1></a>
+		<h3 class="title">Login & Registration</h3>
+	</header>
+
+	<!-- container div -->
+	<div class="container">
+
+		<!-- upper button section to select
+			the login or signup form -->
+		<div class="slider"></div>
+		<div class="btn">
+			<button class="login">Login</button>
+			<button class="signup">Signup</button>
+		</div>
+
+		<!-- Form section that contains the
+			login and the signup form -->
+		<div class="form-section">
+
+			<!-- login form -->
+			<form action="login.php" method="post">
+			<div class="login-box">
+				<input type="email"
+					class="email ele" id="email" name="email"
+					placeholder="youremail@email.com" required>
+				<input type="password"
+					class="password ele" id="password" name="password"
+					placeholder="password" required>
+				<button class="clkbtn">Login</button>
+			</form>
+				<a href="./adminlogin.html">Admin Login</a>
+			</div>
+
+			<!-- signup form -->
+			<form action="signup.php" method="post">
+			<div class="signup-box">
+				<input type="text"
+					class="name ele" id="name" name="name" 
+					placeholder="Enter your name" required>
+				<input type="email"
+					class="email ele" id="email" name="email"
+					placeholder="youremail@email.com" required>
+				<input type="password"
+					class="password ele" id="password" name="password"
+					placeholder="password" required>
+				<input type="password"
+					class="password ele" id="confirmpassword" name="confirmpassword"
+					placeholder="Confirm password" required>
+				<button class="clkbtn">Signup</button>
+				<a href="login.ht
+				">Signup</a>
+			</form>
+
+				
+			</div>
+		</div>
+	</div>
+	<script src="login.js"></script>
+</body>
+</html>
